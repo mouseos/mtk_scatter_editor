@@ -1,6 +1,5 @@
 import sys
 import re
-import pprint
 from tabulate import tabulate
 if len(sys.argv) < 2:
 	print("Usage: python script.py filename")
@@ -35,7 +34,6 @@ try:
 					value=int(value, 16)
 				tmp[re.sub(" ","",content.split(":")[0])] = value
 		scatter.append(tmp)
-		pprint.pprint(scatter)
 	
 	cnt=0
 	table=[]
