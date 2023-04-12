@@ -7,6 +7,7 @@ if len(sys.argv) < 2:
 	sys.exit(1)
 
 filename = sys.argv[1]
+outname = sys.argv[2]
 scatter=[]
 tmp={}
 partindex=0
@@ -118,7 +119,7 @@ try:
 					save_txt+=("\n- "+f"{key}: {value}"+"\n")
 				cnt+=1
 		print(save_txt)
-		with open('sample.txt', 'w') as f:
+		with open(outname, 'w') as f:
 			print(f.write(save_txt))
 except FileNotFoundError:
 	print(f"Error: file '{filename}' not found.")
