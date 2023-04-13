@@ -2,7 +2,7 @@ import sys
 import re
 from tabulate import tabulate
 if len(sys.argv) < 2:
-	print("Usage: python script.py filename")
+	print("使用方法: python mtk_scatter_editor.py scatterファイル 出力ファイル")
 	sys.exit(1)
 
 filename = sys.argv[1]
