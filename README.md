@@ -79,7 +79,9 @@
 
 # mtk_scatter_editor(English)
 ## Usage
+
 1,python . \mtk_scatter_editor.py File name to be edited File name after editing
+
 2,Enter the partition number of the partition to be changed from the list. In this case, select ``recovery''.
 ```
  python .\mtk_scatter_editor.py .\MT8167_Android_scatter_default.txt test.txt
