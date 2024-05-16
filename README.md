@@ -1,6 +1,8 @@
 # mtk_scatter_editor(Japanese)
 ## 使い方
+
 1,python .\mtk_scatter_editor.py 編集するファイル名 編集後のファイル名
+
 2,一覧から編集対象のパーティション番号を入力する。ここではrecoveryを選択する。
 ```
  python .\mtk_scatter_editor.py .\MT8167_Android_scatter_default.txt test.txt
