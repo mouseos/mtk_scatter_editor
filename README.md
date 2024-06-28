@@ -1,4 +1,7 @@
 # mtk_scatter_editor(Japanese)
+
+Mediatek端末のパーティションサイズを変更することができます。
+
 ## 使い方
 
 1,python .\mtk_scatter_editor.py 編集するファイル名 編集後のファイル名
@@ -78,6 +81,9 @@
 
 
 # mtk_scatter_editor(English)
+
+You can change the partition size on your Mediatek device.
+
 ## Usage
 
 1,python . \mtk_scatter_editor.py File name to be edited File name after editing
