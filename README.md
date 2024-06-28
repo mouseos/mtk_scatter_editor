@@ -92,7 +92,7 @@ You can change the partition size on your Mediatek device.
 ```
  python .\mtk_scatter_editor.py .\MT8167_Android_scatter_default.txt test.txt
 +--------+-----------+------------+------------+-------------+------------------+
-|   番号 | 名前      |    開始(B) |    終了(B) |   サイズ(B) | サイズ(最適化)   |
+|   Num | Name      |    Start(B) |    End(B) |   Size(B) | Size(optimized)   |
 +========+===========+============+============+=============+==================+
 |      0 | preloader |          0 |          0 |           0 | 0.0KB            |
 +--------+-----------+------------+------------+-------------+------------------+
